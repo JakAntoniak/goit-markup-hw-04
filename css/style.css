@@ -66,6 +66,13 @@ nav :hover {
   color: #2196f3;
 }
 
+.icon {
+  fill: red;
+  border: 2px solid black;
+  width: 30px;
+  height: 30px;
+}
+
 .header-contacts {
   font-weight: 500;
   font-size: 14px;
