@@ -66,11 +66,9 @@ nav :hover {
   color: #2196f3;
 }
 
-.icon {
-  fill: red;
+.header-icon {
   border: 2px solid black;
-  width: 30px;
-  height: 30px;
+  margin-right: 10px;
 }
 
 .header-contacts {
@@ -86,7 +84,8 @@ nav :hover {
 }
 
 .tel {
-  padding-left: 50px;
+  padding-left: 30px;
+  display: flex;
 }
 
 .header-contacts a:hover,
