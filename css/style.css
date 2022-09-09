@@ -147,7 +147,9 @@ a:focus,
   display: flex;
   gap: 30px;
 }
-
+.icon {
+  /* border: 1px solid black; */
+}
 .article-header {
   font-weight: 700;
 }
