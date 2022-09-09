@@ -210,9 +210,10 @@ a:focus,
 }
 .circle {
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #f5f4fa;
   width: 44px;
   height: 44px;
+  cursor: pointer;
 }
 .circle:hover {
   background-color: #2196f3;
