@@ -38,8 +38,7 @@ body {
   display: flex;
   gap: 93px;
   align-items: center;
-  justify-content: space-between;
-  margin: 0 auto;
+  flex-direction: row;
 }
 .header-logo {
   font-family: "Raleway";
@@ -54,9 +53,7 @@ body {
 
 .menu-nav {
   width: 254px;
-  height: 16px;
   font-size: 14px;
-  line-height: 0.875;
   letter-spacing: 0.02em;
   display: flex;
   justify-content: space-between;
@@ -68,23 +65,21 @@ nav :hover {
 
 .header-icon {
   margin-right: 10px;
+  /* border: 1px solid black; */
 }
 
 .header-contacts {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  line-height: 0.875;
-  padding-left: 252px;
   display: flex;
-}
-.header-contacts a {
-  color: #757575;
+  gap: 50px;
+  margin-left: auto;
+  align-items: center;
 }
 
-.tel {
-  padding-left: 30px;
-  display: flex;
+.header-contacts a {
+  color: #757575;
 }
 
 .header-contacts a:hover,
@@ -150,7 +145,6 @@ a:focus {
 .article ul {
   display: flex;
   gap: 30px;
-  list-style-type: none;
 }
 
 .article-header {
@@ -295,7 +289,6 @@ button:focus {
 }
 
 .wszystkie-menu-images {
-  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
