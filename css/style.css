@@ -147,6 +147,12 @@ a:focus,
   gap: 30px;
 }
 
+.article-logo {
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
 .article-header {
   font-weight: 700;
 }
