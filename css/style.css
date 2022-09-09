@@ -83,7 +83,7 @@ nav :hover {
 
 .header-contacts a:hover,
 a:focus,
-.header-contacts svg:hover {
+.header-icon:hover {
   color: #2196f3;
   fill: #2196f3;
 }
@@ -208,13 +208,22 @@ a:focus,
   text-align: center;
   letter-spacing: 0.03em;
 }
-/* .circle {
+.circle {
   border-radius: 50%;
-  background-color: purple;
+  background-color: #ffffff;
   width: 44px;
   height: 44px;
-} */
+}
+.circle:hover {
+  background-color: #2196f3;
+}
+.social-media-icon {
+  fill: #afb1b8;
+}
 
+.social-media-icon:hover {
+  fill: #ffffff;
+}
 .footer-background-color {
   background: #2f303a;
 }
