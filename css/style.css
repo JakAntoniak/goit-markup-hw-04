@@ -243,6 +243,12 @@ a:focus,
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  fill: #afb1b8;
+  cursor: pointer;
+}
+
+.our-client-icon:hover {
+  fill: #2196f3;
 }
 
 .footer-background-color {
