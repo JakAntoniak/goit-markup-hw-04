@@ -83,7 +83,8 @@ nav :hover {
 }
 
 .header-contacts a:hover,
-a:focus {
+a:focus,
+.header-icon:hover {
   color: #2196f3;
 }
 
