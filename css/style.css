@@ -38,7 +38,6 @@ body {
   display: flex;
   gap: 93px;
   align-items: center;
-  flex-direction: row;
 }
 .header-logo {
   font-family: "Raleway";
@@ -65,7 +64,7 @@ nav :hover {
 
 .header-icon {
   margin-right: 10px;
-  /* border: 1px solid black; */
+  border: 1px solid black;
 }
 
 .header-contacts {
@@ -147,9 +146,7 @@ a:focus,
   display: flex;
   gap: 30px;
 }
-.icon {
-  /* border: 1px solid black; */
-}
+
 .article-header {
   font-weight: 700;
 }
