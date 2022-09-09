@@ -249,6 +249,7 @@ a:focus,
 
 .our-client-icon:hover {
   fill: #2196f3;
+  border-color: #2196f3;
 }
 
 .footer-background-color {
@@ -299,6 +300,43 @@ a:focus,
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-social-media {
+  position: absolute;
+  left: 531px;
+  top: 2751px;
+}
+
+.footer-social-media-block {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-social-media p {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  padding-bottom: 20px;
+}
+
+.footer-circle {
+  background-color: #ffffff1a;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer-circle:hover {
+  background-color: #2196f3;
+}
+.footer-social-media-icon {
+  fill: #ffffff;
 }
 
 /* Portfolio */
