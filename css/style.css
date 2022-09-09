@@ -232,6 +232,19 @@ a:focus,
 .social-media-icon:hover {
   fill: #ffffff;
 }
+
+.our-clients-logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-client-icon {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
 .footer-background-color {
   background: #2f303a;
 }
