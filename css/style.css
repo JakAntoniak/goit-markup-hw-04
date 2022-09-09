@@ -83,7 +83,7 @@ nav :hover {
 
 .header-contacts a:hover,
 a:focus,
-svg:hover {
+.header-contacts svg:hover {
   color: #2196f3;
   fill: #2196f3;
 }
@@ -208,6 +208,12 @@ svg:hover {
   text-align: center;
   letter-spacing: 0.03em;
 }
+/* .circle {
+  border-radius: 50%;
+  background-color: purple;
+  width: 44px;
+  height: 44px;
+} */
 
 .footer-background-color {
   background: #2f303a;
