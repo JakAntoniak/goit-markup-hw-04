@@ -85,6 +85,7 @@ nav :hover {
 a:focus,
 svg:hover {
   color: #2196f3;
+  fill: #2196f3;
 }
 
 .welcome-section-background {
