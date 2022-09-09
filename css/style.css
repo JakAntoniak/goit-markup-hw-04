@@ -208,6 +208,11 @@ a:focus,
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.social-media-block {
+  display: flex;
+  gap: 10px;
+}
 .circle {
   border-radius: 50%;
   background-color: #f5f4fa;
