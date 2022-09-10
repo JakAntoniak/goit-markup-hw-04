@@ -174,7 +174,7 @@ a:focus,
 }
 .what-we-do-images {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
 }
 .our-team-background {
   background: #f5f4fa;
@@ -182,12 +182,13 @@ a:focus,
 
 .our-team-images {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
 }
 .our-team-images li {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  gap: 30px;
 }
 
 .our-team-signature {
