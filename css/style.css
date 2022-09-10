@@ -255,23 +255,26 @@ a:focus,
   background: #2f303a;
 }
 .footer {
-  background: #2f303a;
+  display: flex;
+}
+
+.footer-contacts {
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
+
 .footer-logo {
   font-family: "Raleway";
   font-size: 26px;
   letter-spacing: 0.03em;
   color: #2196f3;
-  padding: 60px 0 0 15px;
+  padding: 60px 0 20px 15px;
 }
 .logo-third-color {
   color: white;
 }
 
-#Address {
+.address {
   display: flex;
   flex-direction: column;
   gap: 9px;
@@ -302,9 +305,7 @@ a:focus,
 }
 
 .footer-social-media {
-  position: absolute;
-  left: 531px;
-  top: 2751px;
+  padding: 72px 0 0 70px;
 }
 
 .footer-social-media-block {
